@@ -1,0 +1,23 @@
+.top {
+  position: fixed;
+  right: -50px;
+  bottom: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: #3073f0b4;
+  color: #ffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.show {
+  right: 20px;
+}
+
+.top:hover {
+  background-color: #3073f0;
+}

@@ -1,0 +1,75 @@
+.navbar {
+  border-bottom:2px solid #eee;
+}
+
+nav ul {
+  list-style: none;
+}
+
+.navbar-brand {
+  color: #3073f0b4;
+  font-weight: 600;
+}
+.navbar-brand:hover {
+  color: #3073f0b4;
+}
+
+.nav-link {
+  font-size: 16px;
+  color: gray;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.nav-link:hover {
+  color: #3073f0b4;
+}
+
+.navbar-nav li {
+  position: relative;
+}
+
+.navbar-nav li::after {
+  position: absolute;
+  content: '';
+  background-color: #3073f0b4;
+  width: 0%;
+  height: 3px;
+  left: 0;
+  transition: .3s;
+}
+
+.navbar-nav li:hover::after {
+  width: 100%;
+}
+
+.active {
+  color: #3073f0b4 !important;
+}
+
+.cart {
+  position: relative;font-size: 20px;
+}
+
+.cart .counter {
+  position: absolute;
+  content: '';
+  background-color: #4c77c6;
+  width: 15px;
+  height: 15px;
+  line-height: 15px;
+  border-radius: 4px;
+  right: -12px;
+  top: -7px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 9px;
+  font-size: 13px;
+}
+
+.logOut {
+  cursor: pointer;
+}

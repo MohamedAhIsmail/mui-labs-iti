@@ -1,0 +1,61 @@
+.details {
+  position: relative;
+}
+
+.details::after {
+  position: absolute;
+  content: '';
+  background-color: #ffffff;
+  /* background-color: #f0f6ff; */
+  width: 68%;
+  height: 100%;
+  transform: translateX(43%);
+  left: 0;
+  top: 0;
+  z-index: -1;
+  border-radius: 10px;
+  /* border: 1px solid #ddd; */
+}
+
+.imageCard {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.d-price {
+  color: #FF3F40;
+}
+
+.d-price .prico {
+  font-size: 60px;
+}
+
+.d-category {
+  background-color: #6D9CF4;
+  color: #fff;
+  border-radius: 30px;
+  padding: 5px 15px;
+  width: fit-content;
+  text-transform: capitalize;
+}
+
+.add {
+  background-color: #FF3F40;
+  transition: 0.3s;
+  color: #ffff;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.add:hover {
+  background-color: #db3232;
+
+}
+
+/* .details {
+  width: 90%;
+} */

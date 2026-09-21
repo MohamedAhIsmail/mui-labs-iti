@@ -1,0 +1,60 @@
+.title {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.category {
+  position: absolute;
+  background-color: #FFC107;
+  width: fit-content;
+  color: #fff;
+  border-radius: 30px;
+  padding: 5px 10px;
+  text-transform: capitalize;
+  font-size: 10px;
+}
+
+.card {
+  overflow: hidden;
+  transition: .3s;
+  cursor: pointer;
+  position: relative;
+}
+
+.card:hover {
+  transform: translateY(-15px)
+}
+
+.price {
+  border: 1px solid rgb(15, 183, 15);
+  color: rgb(15, 183, 15);
+  padding: 1px 7px;
+  border-radius: 4px;
+}
+
+.view {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  color: #6D9CF4;
+  background-color: #eeeeee89;
+  transition: 0.3s;
+}
+
+.view:hover {
+  background-color: #6D9CF4;
+  color: #fff;
+}
+
+.addCart {
+  background-color: #6D9CF4;
+  color: #ffff;
+  font-size: 15px;
+  height: 40px !important;
+  transition: .3s;
+}
+
+.addCart:hover {
+  background-color: #4e7bcd;
+}
